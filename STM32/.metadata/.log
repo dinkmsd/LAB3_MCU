@@ -16,3 +16,157 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-11-02 20:39:52.279
 !MESSAGE Indexed 'lab3stm' (19 sources, 78 headers) in 1.95 sec: 3,647 declarations; 13,057 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-02 20:55:18.358
+!MESSAGE Indexed 'STM32_Lab3' (26 sources, 103 headers) in 1.77 sec: 7,499 declarations; 35,124 references; 6 unresolved inclusions; 295 syntax errors; 1,087 unresolved names (2.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-02 20:55:33.280
+!MESSAGE Indexed 'STM32_Lab3' (26 sources, 104 headers) in 1.55 sec: 7,498 declarations; 36,319 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-02 21:46:46.112
+!MESSAGE Indexed 'lab3' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2022-11-02 21:47:48.981 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  D:\HK221\MCU\STM32F103C6-basic-main\STM32CubeIDE-projects\Lab3_Button&Switch\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\HK221\MCU\STM32F103C6-basic-main\STM32CubeIDE-projects\Lab3_Button&Switch\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-02 21:47:53.320
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-02 21:47:53.357
+!MESSAGE Log4j initialized with config file C:\Users\xanlo\Desktop\MCULAB\LAB3\STM32\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-02 21:47:57.210
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-02 21:47:57.262
+!MESSAGE Indexed 'lab3' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2022-11-03 07:41:30.480 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-03 07:41:41.931
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-03 07:41:42.017
+!MESSAGE Log4j initialized with config file C:\Users\xanlo\Desktop\MCULAB\LAB3\STM32\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-03 07:41:47.652
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-03 07:43:43.652
+!MESSAGE Indexed 'mcu_lab2' (26 sources, 104 headers) in 2.6 sec: 7,474 declarations; 36,180 references; 2 unresolved inclusions; 40 syntax errors; 188 unresolved names (0.43%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2022-11-03 09:16:34.342
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element global.h does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:583)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-11-03 09:16:34.342
+!MESSAGE Element global.h does not exist.
+!SESSION 2022-11-03 19:33:25.265 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-03 19:33:35.220
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-03 19:33:35.287
+!MESSAGE Log4j initialized with config file C:\Users\xanlo\Desktop\MCULAB\LAB3\STM32\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-03 19:33:42.535
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-03 20:52:55.666
+!MESSAGE Indexed 'STM32_Lab3' (26 sources, 104 headers) in 2.31 sec: 7,486 declarations; 36,329 references; 2 unresolved inclusions; 35 syntax errors; 188 unresolved names (0.43%)
+!SESSION 2022-11-04 21:22:55.349 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  C:\Users\xanlo\Downloads\BUTTON-FSM-master\mcu_lab2\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\xanlo\Downloads\BUTTON-FSM-master\mcu_lab2\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-04 21:23:16.015
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-04 21:23:16.101
+!MESSAGE Log4j initialized with config file C:\Users\xanlo\Desktop\MCULAB\LAB3\STM32\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-04 21:23:23.837
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 368 2022-11-04 21:23:35.771
+!MESSAGE Resource '/mcu_lab2' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/mcu_lab2' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1020)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1112)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$ProjectOperation.execute(MCUProjectImporter.java:170)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-04 21:23:38.742
+!MESSAGE Indexed 'mcu_lab2' (25 sources, 103 headers) in 2.39 sec: 7,471 declarations; 35,934 references; 2 unresolved inclusions; 40 syntax errors; 188 unresolved names (0.43%)
+!SESSION 2022-11-05 09:15:10.435 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-05 09:15:25.465
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-05 09:15:25.538
+!MESSAGE Log4j initialized with config file C:\Users\xanlo\Desktop\MCULAB\LAB3\STM32\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-05 09:15:33.193
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-11-05 15:15:59.449 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  C:\Users\xanlo\Downloads\MCU-Midterm-ex1\midterm\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\xanlo\Downloads\MCU-Midterm-ex1\midterm\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-05 15:16:13.368
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-05 15:16:13.461
+!MESSAGE Log4j initialized with config file C:\Users\xanlo\Desktop\MCULAB\LAB3\STM32\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-05 15:16:22.569
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-05 15:16:29.262
+!MESSAGE Indexed 'midterm' (25 sources, 103 headers) in 3.17 sec: 7,554 declarations; 35,816 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.43%)

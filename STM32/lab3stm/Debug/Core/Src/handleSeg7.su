@@ -1,0 +1,6 @@
+handleSeg7.c:16:6:update_buffer	4	static
+handleSeg7.c:23:6:led_init	4	static
+handleSeg7.c:27:6:led_clear	8	static
+handleSeg7.c:31:6:update7SEG	16	static
+handleSeg7.c:65:6:display7SEG	16	static
+handleSeg7.c:70:6:displayMode	8	static
