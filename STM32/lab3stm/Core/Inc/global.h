@@ -50,5 +50,7 @@ extern int start;
 #define GREEN 		13
 #define YELLOW		14
 
+#define TIME_UNIT	1000
+
 
 #endif /* INC_GLOBAL_H_ */

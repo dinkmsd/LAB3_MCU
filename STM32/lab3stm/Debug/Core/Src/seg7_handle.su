@@ -1,0 +1,6 @@
+seg7_handle.c:14:6:led_init	4	static
+seg7_handle.c:18:6:led_clear	8	static
+seg7_handle.c:23:6:display7SEG	24	static
+seg7_handle.c:29:6:update_buffer	4	static
+seg7_handle.c:36:6:update_buffer_no	4	static
+seg7_handle.c:44:6:update7SEG	16	static

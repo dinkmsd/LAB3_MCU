@@ -27,6 +27,7 @@
 #include "global.h"
 #include "software_timer.h"
 #include "time.h"
+#include "seg7_handle.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

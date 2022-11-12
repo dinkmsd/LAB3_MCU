@@ -1,10 +1,4 @@
 input_processing.c:20:5:WhichButtonIsPressed	8	static
-input_processing.c:28:6:led_init	4	static
-input_processing.c:32:6:led_clear	8	static
-input_processing.c:37:6:display7SEG	24	static
-input_processing.c:43:6:update_buffer	4	static
-input_processing.c:50:6:update_buffer_no	4	static
-input_processing.c:58:6:update7SEG	16	static
 input_processing.c:93:6:clear_vertical	8	static
 input_processing.c:97:6:clear_horizontal	8	static
 input_processing.c:101:6:vertical_processing	8	static
